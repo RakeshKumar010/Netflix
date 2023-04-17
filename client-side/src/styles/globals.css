@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.superMain{
+  background: url("../assests/background.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(13, 13, 29);
+  width: 100%;
+  min-width: 100vh;
+}
+
+.homePage {
+  background-color: rgba(0, 0, 255, 0.103);
+  width: 100%;
+  min-height: 180vh;
+  /* background-color: greenyellow; */
+}
+nav {
+  display: flex;
+  height: 8vh;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: gainsboro; */
+  padding: 1vh 7vw;
+  height: 13vh;
+}
+.signuploginlogo{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+nav .logo {
+  width: 11vw;
+  height: 6vh;
+}
+nav .navBtnClass a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 4px 16px;
+  height: 32px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+}
+.navBtnClass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.alertBox{
+  display: none;
+  position:fixed;
+  border-radius: 5px;
+    bottom: 0;
+    left: 43%;
+    background-color: rgb(71, 255, 47);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;
+    animation: slide 0.3s linear;  
+
+}
+@keyframes slide{
+  0%{bottom: 3vh;background-color: rgba(71, 255, 47, 0.089);}
+  100%{bottom: 0;background-color: rgb(71, 255, 47);}
+  
+}
+.selectClass {
+  font-size: 16px;
+  line-height: 20px;
+  width: 123px;
+  height: 32px;
+  min-height: 16px;
+  background-color: rgba(29, 30, 34, 0.329);
+  color: white;
+  border-radius: 5px;
+
+  min-width: auto;
+}
+.signupRouter {
+  border-radius: 5px;
+}
+.Unlimitedmoviesheading {
+  color: white;
+  top: 36vh;
+  position: absolute;
+  /* right: 5vw; */
+  margin: 0 8vw;
+  /* background: lightblue; */
+  width: 84vw;
+  min-height: 62vh;
+  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.Unlimitedmoviesheadingh1 {
+  font-size: 64px;
+  font-weight: 900;
+}
+.Unlimitedmoviesheadingp {
+  font-size: 24px;
+  font-weight: 500;
+}
+.remembermeneedhelpMain{
+  display: flex;
+  width: 100%;
+  color: rgb(180, 175, 175);
+
+  justify-content: space-between;
+
+}
+.remembermeneedhelpMain a{
+  color: rgb(180, 175, 175);
+  text-decoration: none;
+}
+.rememberme{
+  display: flex;
+  gap: 10px;
+}
+.getstartMain {
+  background-color: rgb(14, 14, 54);
+  min-height: 155px;
+  width: 100%;
+  padding: 24px 42px;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 10px;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.getStartinput {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 50vw;
+}
+.getStartinput input {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  border: 1px solid white;
+  height: 65px;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 5px;
+}
+.getStartinput a {
+  background-color: red;
+  color: white;
+  height: 65px;
+  min-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  padding: 1rem;
+  /* font-family: auto; */
+  font-weight: bold;
+  border-radius: 5px;
+
+  text-decoration: none;
+}
+.featurecoardmain {
+  background-color: rgb(14, 14, 54);
+  width: 93%;
+  min-height: 200vh;
+
+  margin: auto;
+  margin-top: -40vh;
+  border-radius: 10px;
+  padding: 4vh 8vw;
+}
+.tvMain {
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.tvImage {
+  width: 40vw;
+  height: 72vh;
+}
+.tv1text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tv1text h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+.accordionMain {
+  width: 80vw;
+  min-height: 100vh;
+  margin: auto;
+  margin-top: 10vh;
+  color: white;
+}
+.accordionMain h1 {
+  font-size: 45px;
+  margin: 1rem 0;
+}
+.accordionList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.accordion {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-weight: 400;
+}
+.accordionhead {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(19, 33, 68);
+  padding: 0 1.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+.accordionhead:hover {
+  background-color: rgb(29, 51, 105);
+}
+
+.addClass {
+  font-size: 4rem;
+}
+
+.accordionmessage {
+  background-color: rgb(19, 33, 68);
+  padding: 1.5rem;
+}
+.addrotateClass {
+  rotate: 30deg;
+  font-size: 4rem;
+}
+.accordionfootertext {
+  margin: 2rem 0;
+}
+.footermain {
+  width: 80%;
+  margin:auto ;
+  padding: 35vh 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+.footerulconnection {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+.footerulconnection ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footerulconnection ul li a,
+.footerparaheading,
+.netflixIndia {
+  color: rgba(255, 255, 255, 0.74);
+}
+.signMain{
+  width: 35vw;
+  padding: 6vh 4vw;
+  height: 100vh;
+  margin: 7vh auto 0 auto;
+  background-color: rgba(0, 0, 0, 0.788);
+
+}
+.signForm{
+  /* width: 100%; */
+  /* height: 100%; */
+  padding: 1rem;
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
+}
+.signForm input{
+  padding: 1rem;
+  background-color: rgb(39, 39, 39);
+  border: 0;
+  border-radius: 5px;
+}
+.signForm h2{
+  margin: 1rem 0;
+  color: white;
+  font-size: 43px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.signForm button{
+  padding: 1rem;
+  margin: 1rem 0 5px 0;
+  background-color: #e50914;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+
+}
+.signupbtnboxmain{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: rgba(255, 255, 255, 0.74);
+  margin: 5vh;
+}
+.signupbtnbox{
+  display: flex;
+}
+.signupbtnbox a{
+  text-decoration: none;
+  color: white;
+}
+.signupbtnbox a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1259px) {
+  .Unlimitedmoviesheadingh1 {
+    font-size: 54px;
+  }
+  .tvImage {
+    height: 50vh;
+  }
+  .tv1text h1 {
+    font-size: 40px;
+  }
+  .getStartinput a {
+    font-size: large;
+  }
+  .getStartinput {
+    width: 66vw;
+  }
+  .Unlimitedmoviesheading {
+    top: 26vh;
+  }
+}
+
+@media screen and (max-width: 731px) {
+  .tvImage {
+    height: 30vh;
+  }
+  .tv1text h1 {
+    font-size: 33px;
+  }
+  .tv1text p {
+    font-size: 15px;
+  }
+  .featurecoardmain {
+    min-height: 133vh;
+  }
+  nav .logo {
+    width: 21vw;
+  }
+}
+
+
+@media screen and (max-width:413px) {
+  nav {
+    height: 9vh;
+  }
+
+  nav .logo {
+    width: 24vw;
+    height: 3vh;
+  }
+  .Unlimitedmoviesheading {
+    top: 20vh;
+  }
+  .tvImage{
+    width: 100%;
+  }
+  .getstartMain{
+    padding: 14px 20px;
+  }
+  .getStartinput {
+    flex-wrap: wrap;
+  }
+  .getStartinput input{
+    width: 100%;
+  }
+  .tvMain{
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 2rem 0;
+  }
+  .homePage{
+    min-height: 123vh;
+
+  }
+  .featurecoardmain{
+    margin-top: -30vh;
+  }
+  .tv2Mian,.tv4Mian{
+    flex-direction: column-reverse;
+  }
+  .footerulconnection {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footermain {
+    margin: 14vh auto;
+  }
+}
